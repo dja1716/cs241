@@ -1,0 +1,45 @@
+4
+a
+b
+c
+d
+7
+s
+A
+AB
+ABC
+ABCA
+ABCAB
+ABCABD
+s
+1
+ABCABD
+28
+s a A
+s b s
+s c s
+s d s
+A a A
+A b AB
+A c s
+A d s
+AB a A
+AB b s
+AB c ABC
+AB d s
+ABC a ABCA
+ABC b s
+ABC c s
+ABC d s
+ABCA a A
+ABCA b ABCAB
+ABCA c s
+ABCA d s
+ABCAB a A
+ABCAB b s
+ABCAB c ABC
+ABCAB d ABCABD
+ABCABD a ABCABD
+ABCABD b ABCABD
+ABCABD c ABCABD
+ABCABD d ABCABD

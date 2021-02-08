@@ -1,0 +1,22 @@
+; 20541727 hdum
+part(a)
+
+encoding scheme is AAAB BBBC CCDD DEEE EFFF FFGG GGTT TTTT
+
+AAA, DDD, EEEE, GGGG, TT TTTT are unsigned integer
+
+AAA represents marks for the question A ranging from 000 ~ 110 (0 ~ 6 in dec)
+DDD represents marks for the question D ranging from 000 ~ 100 (0 ~ 4 in dec)
+EEEE represents marks for the question E ranging from 0000 ~ 1100 (0 ~ 12 in dec)
+GGGG represents marks for the question G ranging from 0000 ~ 1000 (0 ~ 8 in dec)
+TT TTTT represents total marks ranging from 00 0000 ~ 11 0000 (0 ~ 48 in dec)
+
+BBBB, CCC, F FFFF are two's complement
+
+BBBB represents marks for the question B ranging from 1011 ~ 0101 (-5 ~ 5 in dec)
+CCC represents marks for the question C ranging from 111 ~ 011 (-1 ~ 3 in dec)
+F FFFF represents marks for the question F ranging from 1 0110 ~ 0 1010 (-10 ~ 10 in dec)
+
+part (b)
+
+encoding : 0111 1100 1010 0100 0111 1100 1001 0000

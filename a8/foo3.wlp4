@@ -1,0 +1,2 @@
+int id(int x) {return 3;}
+int wain (int *a, int b ) { return id(b);}

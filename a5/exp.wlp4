@@ -1,0 +1,32 @@
+int wain(int x, int n) {
+	int xTemp = 0;
+	int nTemp = 0;
+	int y = 1;
+	int result = 0;
+	int temp = 0;
+	xTemp = x;
+	nTemp = n;
+
+	if (nTemp < 0) {
+		xTemp = 1 / xTemp;
+	} else {}
+	if (nTemp == 0) {
+		result = 1;
+	} else {
+		while(nTemp > 1) {
+			temp = nTemp % 2;
+
+			if (temp == 0) {
+				xTemp = xTemp * xTemp;
+				nTemp = nTemp / 2;
+			} else {
+				y = xTemp * y;
+				xTemp = xTemp * xTemp;
+				nTemp = nTemp - 1;
+				nTemp = nTemp / 2;
+			}
+		}
+		result = xTemp * y;
+	}
+	return result;
+}

@@ -1,0 +1,5 @@
+int wain(int n, int t) {
+	int m = 0;
+	m = n / t;
+	return m;
+}

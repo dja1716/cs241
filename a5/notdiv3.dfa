@@ -1,0 +1,30 @@
+2
+0
+1
+4
+start
+state1
+state2
+state3
+start
+2
+state2
+state3
+7
+start 1 state2
+state1 0 state1
+state1 1 state2
+state2 1 state1
+state2 0 state3
+state3 1 state3
+state3 0 state2
+1
+1 0
+1 0 0
+1 0 1
+1 1 1
+1 1
+1 1 0
+1 0 0 1
+1 1 0 0
+1 1 1 1
